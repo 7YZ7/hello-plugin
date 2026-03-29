@@ -1,5 +1,5 @@
 ---
-name: hello-skill-ag
+name: hello-skill
 description: A placeholder skill that greets the user and confirms hello-plugin is active.
 ---
 
