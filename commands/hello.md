@@ -1,10 +1,10 @@
 # Hello Command
 
-Greet the user and show fbox-plugin status.
+Greet the user and show hello-plugin status.
 
 ## Instructions
 
-1. Greet the user with: "Hello from fbox-plugin!"
+1. Greet the user with: "Hello from hello-plugin!"
 2. List the available components in this plugin:
    - **Agent**: `hello-agent` — friendly placeholder agent
    - **Skill**: `hello-skill` — greeting skill

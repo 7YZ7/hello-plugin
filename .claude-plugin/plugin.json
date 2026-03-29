@@ -1,8 +1,10 @@
 {
-  "name": "fbox-plugin",
+  "name": "hello-plugin",
   "version": "0.1.0",
   "description": "A minimal Claude Code plugin with all component types.",
   "agents": ["./agents/hello-agent.md"],
   "commands": ["./commands/"],
-  "skills": ["./skills/"]
+  "skills": ["./skills/"],
+  "hooks": ["./hooks/"],
+  "rules": ["./rules/"]
 }

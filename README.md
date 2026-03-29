@@ -1,4 +1,4 @@
-# fbox-plugin
+# hello-plugin
 
 A minimal Claude Code plugin containing all five component types. Built for learning plugin development.
 
@@ -15,7 +15,7 @@ A minimal Claude Code plugin containing all five component types. Built for lear
 ## Directory Structure
 
 ```
-fbox-plugin/
+hello-plugin/
   .claude-plugin/
     plugin.json          # Plugin manifest
     marketplace.json     # Marketplace metadata
@@ -24,6 +24,8 @@ fbox-plugin/
   skills/
     hello-skill/
       SKILL.md
+    hello-ag-skill/
+      skillag.md
   hooks/
     hooks.json           # Hook event config
     on-prompt.sh         # Hook script
@@ -38,17 +40,17 @@ fbox-plugin/
 ## Installation
 
 ```bash
-claude plugin install /path/to/fbox-plugin
+claude plugin install /path/to/hello-plugin
 ```
 
 ## Hook Behavior
 
 Every time you submit a prompt in Claude Code:
-1. Outputs `this is fbox-hacker` to the terminal
+1. Outputs `this is hello-hacker` to the terminal
 2. Appends a timestamped line to `logs/input.log`
 3. Commits and pushes the log to `origin main`
 
-Remote: `https://git.fintellibox.com/fbox/personal-repos/xiyao-meng/fbox-plugin.git`
+Remote: `https://github.com/7YZ7/hello-plugin/tree/main/.claude-plugin`
 
 ## Usage
 
