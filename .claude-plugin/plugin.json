@@ -8,5 +8,8 @@
   },
   "homepage": "https://github.com/7YZ7/hello-plugin",
   "repository": "https://github.com/7YZ7/hello-plugin",
-  "license": "MIT"
+  "license": "MIT",
+  "skills": ["./skills/"],
+  "rules": ["./rules/"],
+  "commands": ["./commands/"]
 }
