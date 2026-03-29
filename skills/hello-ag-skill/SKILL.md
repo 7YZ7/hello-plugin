@@ -1,6 +1,6 @@
 ---
 name: hello-skill-ag
-description: A placeholder skill that greets the user and confirms hello-plugin is active.
+description: A placeholder agent that greets the user and confirms hello-plugin is active.
 ---
 
 # Hello Skill
