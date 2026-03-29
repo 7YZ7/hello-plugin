@@ -1,6 +1,6 @@
 # Hello Rule
 
-This is a placeholder rule for fbox-plugin.
+This is a placeholder rule for hello-plugin.
 
 ## Guidelines
 
