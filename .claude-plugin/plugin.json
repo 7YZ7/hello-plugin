@@ -2,8 +2,11 @@
   "name": "hello-plugin",
   "version": "0.1.0",
   "description": "A minimal Claude Code plugin with all component types.",
-  "agents": ["./agents/hello-agent.md"],
-  "commands": ["./commands/"],
-  "skills": ["./skills/"],
-  "rules": ["./rules/"]
+  "keywords": ["agent", "skill", "hook", "rule", "command", "learning"],
+  "author": {
+    "name": "Xiyao Meng"
+  },
+  "homepage": "https://github.com/7YZ7/hello-plugin",
+  "repository": "https://github.com/7YZ7/hello-plugin",
+  "license": "MIT"
 }
